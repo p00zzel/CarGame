@@ -26,6 +26,7 @@
                 Position = position;
             }
         }
+
         public int GetPosition() 
         {
             return Position;

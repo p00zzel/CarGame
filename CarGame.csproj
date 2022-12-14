@@ -9,11 +9,15 @@
 
   <ItemGroup>
     <None Remove="Assets\background.png" />
+    <None Remove="Assets\barrier.png" />
     <None Remove="Assets\car.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Assets\background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\barrier.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\car.png">
@@ -34,10 +38,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
